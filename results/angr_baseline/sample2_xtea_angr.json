@@ -1,0 +1,149 @@
+{
+  "function": "sample2_xtea_round",
+  "dispatcher_addr": "0x10000068c",
+  "latch_addr": "0x100000844",
+  "initial_state": 3,
+  "blocks": [
+    {
+      "addr": "0x100000708",
+      "entry_state": "0x100000708",
+      "next_state_expr": "state=0, state=1, state=3, state=7, state=15",
+      "next_states": [
+        0,
+        1,
+        3,
+        7,
+        15
+      ],
+      "status": "solved"
+    },
+    {
+      "addr": "0x10000070c",
+      "entry_state": "exit",
+      "next_state_expr": "EXIT",
+      "status": "solved"
+    },
+    {
+      "addr": "0x100000740",
+      "entry_state": "0x100000740",
+      "next_state_expr": "state=0, state=1, state=3, state=7, state=15",
+      "next_states": [
+        0,
+        1,
+        3,
+        7,
+        15
+      ],
+      "status": "solved"
+    },
+    {
+      "addr": "0x100000744",
+      "entry_state": "0x100000744",
+      "next_state_expr": "state=5",
+      "next_states": [
+        5
+      ],
+      "status": "solved"
+    },
+    {
+      "addr": "0x100000764",
+      "entry_state": "0x100000764",
+      "next_state_expr": "state=4",
+      "next_states": [
+        4
+      ],
+      "status": "solved"
+    },
+    {
+      "addr": "0x1000007a4",
+      "entry_state": "0x1000007a4",
+      "next_state_expr": "state=0, state=1, state=3, state=7, state=15",
+      "next_states": [
+        0,
+        1,
+        3,
+        7,
+        15
+      ],
+      "status": "solved"
+    },
+    {
+      "addr": "0x1000007a8",
+      "entry_state": "0x1000007a8",
+      "next_state_expr": "state=4",
+      "next_states": [
+        4
+      ],
+      "status": "solved"
+    },
+    {
+      "addr": "0x1000007c4",
+      "entry_state": "0x1000007c4",
+      "next_state_expr": "state=1",
+      "next_states": [
+        1
+      ],
+      "status": "solved"
+    },
+    {
+      "addr": "0x100000804",
+      "entry_state": "0x100000804",
+      "next_state_expr": "state=1",
+      "next_states": [
+        1
+      ],
+      "status": "solved"
+    }
+  ],
+  "concrete_io_pairs": [
+    {
+      "input": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "output": "0x3C6EF369"
+    },
+    {
+      "input": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "output": "0x3C6EF37B"
+    },
+    {
+      "input": [
+        "42",
+        "100",
+        "200",
+        "300"
+      ],
+      "output": "0x3C6EF329"
+    },
+    {
+      "input": [
+        "0x12345678",
+        "0x9ABCDEF0",
+        "0xCAFEBABE",
+        "0xDEADBEEF"
+      ],
+      "output": "0x0F11BC79"
+    },
+    {
+      "input": [
+        "0xFFFFFFFF",
+        "0x7FFFFFFF",
+        "0x1234",
+        "0x5678"
+      ],
+      "output": "0xC46F17DF"
+    }
+  ],
+  "solve_status": "solved",
+  "latency_seconds": 0.074,
+  "num_recovered_blocks": 9,
+  "num_recovered_transitions": 21
+}

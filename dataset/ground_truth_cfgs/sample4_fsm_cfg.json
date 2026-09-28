@@ -1,0 +1,585 @@
+{
+  "function_name": "sample4_fsm",
+  "entry_addr": "0x100000460",
+  "num_blocks": 51,
+  "num_edges": 64,
+  "blocks": [
+    {
+      "addr": "0x100000460",
+      "size": 16,
+      "instruction_addrs": []
+    },
+    {
+      "addr": "0x100000480",
+      "size": 16,
+      "instruction_addrs": []
+    },
+    {
+      "addr": "0x100000470",
+      "size": 4,
+      "instruction_addrs": []
+    },
+    {
+      "addr": "0x100000490",
+      "size": 16,
+      "instruction_addrs": []
+    },
+    {
+      "addr": "0x100000474",
+      "size": 12,
+      "instruction_addrs": []
+    },
+    {
+      "addr": "0x100000624",
+      "size": 28,
+      "instruction_addrs": []
+    },
+    {
+      "addr": "0x1000004a0",
+      "size": 4,
+      "instruction_addrs": []
+    },
+    {
+      "addr": "0x100000640",
+      "size": 12,
+      "instruction_addrs": []
+    },
+    {
+      "addr": "0x1000004a4",
+      "size": 28,
+      "instruction_addrs": []
+    },
+    {
+      "addr": "0x1000004f0",
+      "size": 12,
+      "instruction_addrs": []
+    },
+    {
+      "addr": "0x1000004c0",
+      "size": 4,
+      "instruction_addrs": []
+    },
+    {
+      "addr": "0x100000574",
+      "size": 12,
+      "instruction_addrs": []
+    },
+    {
+      "addr": "0x1000004fc",
+      "size": 4,
+      "instruction_addrs": []
+    },
+    {
+      "addr": "0x1000004c4",
+      "size": 12,
+      "instruction_addrs": []
+    },
+    {
+      "addr": "0x1000005d0",
+      "size": 12,
+      "instruction_addrs": []
+    },
+    {
+      "addr": "0x100000580",
+      "size": 4,
+      "instruction_addrs": []
+    },
+    {
+      "addr": "0x100000500",
+      "size": 12,
+      "instruction_addrs": []
+    },
+    {
+      "addr": "0x1000004ec",
+      "size": 4,
+      "instruction_addrs": []
+    },
+    {
+      "addr": "0x1000004d0",
+      "size": 4,
+      "instruction_addrs": []
+    },
+    {
+      "addr": "0x1000005fc",
+      "size": 12,
+      "instruction_addrs": []
+    },
+    {
+      "addr": "0x1000005dc",
+      "size": 4,
+      "instruction_addrs": []
+    },
+    {
+      "addr": "0x100000584",
+      "size": 12,
+      "instruction_addrs": []
+    },
+    {
+      "addr": "0x100000520",
+      "size": 12,
+      "instruction_addrs": []
+    },
+    {
+      "addr": "0x10000050c",
+      "size": 4,
+      "instruction_addrs": []
+    },
+    {
+      "addr": "0x100000614",
+      "size": 16,
+      "instruction_addrs": []
+    },
+    {
+      "addr": "0x1000004d4",
+      "size": 24,
+      "instruction_addrs": []
+    },
+    {
+      "addr": "0x1000005e0",
+      "size": 12,
+      "instruction_addrs": []
+    },
+    {
+      "addr": "0x1000005ac",
+      "size": 12,
+      "instruction_addrs": []
+    },
+    {
+      "addr": "0x100000590",
+      "size": 4,
+      "instruction_addrs": []
+    },
+    {
+      "addr": "0x10000054c",
+      "size": 12,
+      "instruction_addrs": []
+    },
+    {
+      "addr": "0x10000052c",
+      "size": 4,
+      "instruction_addrs": []
+    },
+    {
+      "addr": "0x100000510",
+      "size": 16,
+      "instruction_addrs": []
+    },
+    {
+      "addr": "0x1000005f8",
+      "size": 4,
+      "instruction_addrs": []
+    },
+    {
+      "addr": "0x1000005ec",
+      "size": 4,
+      "instruction_addrs": []
+    },
+    {
+      "addr": "0x1000005c8",
+      "size": 4,
+      "instruction_addrs": []
+    },
+    {
+      "addr": "0x1000005b8",
+      "size": 4,
+      "instruction_addrs": []
+    },
+    {
+      "addr": "0x100000594",
+      "size": 24,
+      "instruction_addrs": []
+    },
+    {
+      "addr": "0x100000568",
+      "size": 4,
+      "instruction_addrs": []
+    },
+    {
+      "addr": "0x100000558",
+      "size": 4,
+      "instruction_addrs": []
+    },
+    {
+      "addr": "0x100000530",
+      "size": 12,
+      "instruction_addrs": []
+    },
+    {
+      "addr": "0x100000570",
+      "size": 4,
+      "instruction_addrs": []
+    },
+    {
+      "addr": "0x100000608",
+      "size": 4,
+      "instruction_addrs": []
+    },
+    {
+      "addr": "0x1000005f0",
+      "size": 8,
+      "instruction_addrs": []
+    },
+    {
+      "addr": "0x1000005cc",
+      "size": 4,
+      "instruction_addrs": []
+    },
+    {
+      "addr": "0x1000005bc",
+      "size": 12,
+      "instruction_addrs": []
+    },
+    {
+      "addr": "0x10000056c",
+      "size": 4,
+      "instruction_addrs": []
+    },
+    {
+      "addr": "0x10000055c",
+      "size": 12,
+      "instruction_addrs": []
+    },
+    {
+      "addr": "0x10000053c",
+      "size": 4,
+      "instruction_addrs": []
+    },
+    {
+      "addr": "0x100000610",
+      "size": 4,
+      "instruction_addrs": []
+    },
+    {
+      "addr": "0x10000060c",
+      "size": 4,
+      "instruction_addrs": []
+    },
+    {
+      "addr": "0x100000540",
+      "size": 12,
+      "instruction_addrs": []
+    }
+  ],
+  "edges": [
+    {
+      "src": "0x100000460",
+      "dst": "0x100000480",
+      "jumpkind": "unknown"
+    },
+    {
+      "src": "0x100000460",
+      "dst": "0x100000470",
+      "jumpkind": "unknown"
+    },
+    {
+      "src": "0x100000480",
+      "dst": "0x100000490",
+      "jumpkind": "unknown"
+    },
+    {
+      "src": "0x100000470",
+      "dst": "0x100000474",
+      "jumpkind": "unknown"
+    },
+    {
+      "src": "0x100000490",
+      "dst": "0x100000624",
+      "jumpkind": "unknown"
+    },
+    {
+      "src": "0x100000490",
+      "dst": "0x1000004a0",
+      "jumpkind": "unknown"
+    },
+    {
+      "src": "0x100000474",
+      "dst": "0x100000640",
+      "jumpkind": "unknown"
+    },
+    {
+      "src": "0x100000624",
+      "dst": "0x100000640",
+      "jumpkind": "unknown"
+    },
+    {
+      "src": "0x1000004a0",
+      "dst": "0x1000004a4",
+      "jumpkind": "unknown"
+    },
+    {
+      "src": "0x1000004a4",
+      "dst": "0x1000004f0",
+      "jumpkind": "unknown"
+    },
+    {
+      "src": "0x1000004a4",
+      "dst": "0x1000004c0",
+      "jumpkind": "unknown"
+    },
+    {
+      "src": "0x1000004f0",
+      "dst": "0x100000574",
+      "jumpkind": "unknown"
+    },
+    {
+      "src": "0x1000004f0",
+      "dst": "0x1000004fc",
+      "jumpkind": "unknown"
+    },
+    {
+      "src": "0x1000004c0",
+      "dst": "0x1000004c4",
+      "jumpkind": "unknown"
+    },
+    {
+      "src": "0x100000574",
+      "dst": "0x1000005d0",
+      "jumpkind": "unknown"
+    },
+    {
+      "src": "0x100000574",
+      "dst": "0x100000580",
+      "jumpkind": "unknown"
+    },
+    {
+      "src": "0x1000004fc",
+      "dst": "0x100000500",
+      "jumpkind": "unknown"
+    },
+    {
+      "src": "0x1000004c4",
+      "dst": "0x1000004ec",
+      "jumpkind": "unknown"
+    },
+    {
+      "src": "0x1000004c4",
+      "dst": "0x1000004d0",
+      "jumpkind": "unknown"
+    },
+    {
+      "src": "0x1000005d0",
+      "dst": "0x1000005fc",
+      "jumpkind": "unknown"
+    },
+    {
+      "src": "0x1000005d0",
+      "dst": "0x1000005dc",
+      "jumpkind": "unknown"
+    },
+    {
+      "src": "0x100000580",
+      "dst": "0x100000584",
+      "jumpkind": "unknown"
+    },
+    {
+      "src": "0x100000500",
+      "dst": "0x100000520",
+      "jumpkind": "unknown"
+    },
+    {
+      "src": "0x100000500",
+      "dst": "0x10000050c",
+      "jumpkind": "unknown"
+    },
+    {
+      "src": "0x1000004ec",
+      "dst": "0x100000614",
+      "jumpkind": "unknown"
+    },
+    {
+      "src": "0x1000004d0",
+      "dst": "0x1000004d4",
+      "jumpkind": "unknown"
+    },
+    {
+      "src": "0x1000005fc",
+      "dst": "0x100000624",
+      "jumpkind": "unknown"
+    },
+    {
+      "src": "0x1000005dc",
+      "dst": "0x1000005e0",
+      "jumpkind": "unknown"
+    },
+    {
+      "src": "0x100000584",
+      "dst": "0x1000005ac",
+      "jumpkind": "unknown"
+    },
+    {
+      "src": "0x100000584",
+      "dst": "0x100000590",
+      "jumpkind": "unknown"
+    },
+    {
+      "src": "0x100000520",
+      "dst": "0x10000054c",
+      "jumpkind": "unknown"
+    },
+    {
+      "src": "0x100000520",
+      "dst": "0x10000052c",
+      "jumpkind": "unknown"
+    },
+    {
+      "src": "0x10000050c",
+      "dst": "0x100000510",
+      "jumpkind": "unknown"
+    },
+    {
+      "src": "0x100000614",
+      "dst": "0x100000490",
+      "jumpkind": "unknown"
+    },
+    {
+      "src": "0x1000004d4",
+      "dst": "0x1000004ec",
+      "jumpkind": "unknown"
+    },
+    {
+      "src": "0x1000005e0",
+      "dst": "0x1000005f8",
+      "jumpkind": "unknown"
+    },
+    {
+      "src": "0x1000005e0",
+      "dst": "0x1000005ec",
+      "jumpkind": "unknown"
+    },
+    {
+      "src": "0x1000005ac",
+      "dst": "0x1000005c8",
+      "jumpkind": "unknown"
+    },
+    {
+      "src": "0x1000005ac",
+      "dst": "0x1000005b8",
+      "jumpkind": "unknown"
+    },
+    {
+      "src": "0x100000590",
+      "dst": "0x100000594",
+      "jumpkind": "unknown"
+    },
+    {
+      "src": "0x10000054c",
+      "dst": "0x100000568",
+      "jumpkind": "unknown"
+    },
+    {
+      "src": "0x10000054c",
+      "dst": "0x100000558",
+      "jumpkind": "unknown"
+    },
+    {
+      "src": "0x10000052c",
+      "dst": "0x100000530",
+      "jumpkind": "unknown"
+    },
+    {
+      "src": "0x100000510",
+      "dst": "0x100000570",
+      "jumpkind": "unknown"
+    },
+    {
+      "src": "0x1000005f8",
+      "dst": "0x100000608",
+      "jumpkind": "unknown"
+    },
+    {
+      "src": "0x1000005ec",
+      "dst": "0x1000005f0",
+      "jumpkind": "unknown"
+    },
+    {
+      "src": "0x1000005c8",
+      "dst": "0x1000005cc",
+      "jumpkind": "unknown"
+    },
+    {
+      "src": "0x1000005b8",
+      "dst": "0x1000005bc",
+      "jumpkind": "unknown"
+    },
+    {
+      "src": "0x100000594",
+      "dst": "0x1000005cc",
+      "jumpkind": "unknown"
+    },
+    {
+      "src": "0x100000568",
+      "dst": "0x10000056c",
+      "jumpkind": "unknown"
+    },
+    {
+      "src": "0x100000558",
+      "dst": "0x10000055c",
+      "jumpkind": "unknown"
+    },
+    {
+      "src": "0x100000530",
+      "dst": "0x10000054c",
+      "jumpkind": "unknown"
+    },
+    {
+      "src": "0x100000530",
+      "dst": "0x10000053c",
+      "jumpkind": "unknown"
+    },
+    {
+      "src": "0x100000570",
+      "dst": "0x100000610",
+      "jumpkind": "unknown"
+    },
+    {
+      "src": "0x100000608",
+      "dst": "0x10000060c",
+      "jumpkind": "unknown"
+    },
+    {
+      "src": "0x1000005f0",
+      "dst": "0x1000005f8",
+      "jumpkind": "unknown"
+    },
+    {
+      "src": "0x1000005cc",
+      "dst": "0x10000060c",
+      "jumpkind": "unknown"
+    },
+    {
+      "src": "0x1000005bc",
+      "dst": "0x1000005c8",
+      "jumpkind": "unknown"
+    },
+    {
+      "src": "0x10000056c",
+      "dst": "0x100000570",
+      "jumpkind": "unknown"
+    },
+    {
+      "src": "0x10000055c",
+      "dst": "0x100000568",
+      "jumpkind": "unknown"
+    },
+    {
+      "src": "0x10000053c",
+      "dst": "0x100000540",
+      "jumpkind": "unknown"
+    },
+    {
+      "src": "0x100000610",
+      "dst": "0x100000614",
+      "jumpkind": "unknown"
+    },
+    {
+      "src": "0x10000060c",
+      "dst": "0x100000610",
+      "jumpkind": "unknown"
+    },
+    {
+      "src": "0x100000540",
+      "dst": "0x10000056c",
+      "jumpkind": "unknown"
+    }
+  ]
+}

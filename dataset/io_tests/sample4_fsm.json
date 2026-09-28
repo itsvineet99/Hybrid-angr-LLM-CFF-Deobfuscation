@@ -1,0 +1,50 @@
+[
+  {
+    "args": [
+      "c"
+    ],
+    "expected_output": "125"
+  },
+  {
+    "args": [
+      "cc"
+    ],
+    "expected_output": "150"
+  },
+  {
+    "args": [
+      "ccb"
+    ],
+    "expected_output": "250"
+  },
+  {
+    "args": [
+      "ccbv"
+    ],
+    "expected_output": "300"
+  },
+  {
+    "args": [
+      "ccbvr"
+    ],
+    "expected_output": "0"
+  },
+  {
+    "args": [
+      "ccr"
+    ],
+    "expected_output": "0"
+  },
+  {
+    "args": [
+      "ccccbv"
+    ],
+    "expected_output": "350"
+  },
+  {
+    "args": [
+      "cb"
+    ],
+    "expected_output": "125"
+  }
+]

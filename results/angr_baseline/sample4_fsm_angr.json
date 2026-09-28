@@ -1,0 +1,455 @@
+{
+  "function": "sample4_fsm",
+  "dispatcher_addr": "0x10000050c",
+  "latch_addr": "0x1000008a8",
+  "initial_state": 13,
+  "blocks": [
+    {
+      "addr": "0x10000050c",
+      "entry_state": "0x10000050c",
+      "next_state_expr": "state=0, state=1, state=2, state=3, state=6, state=7, state=14, state=15, state=30, state=50331777, state=301990016, state=318767232, state=4294967296, state=4294967297, state=4294967299, state=4294967303, state=4294967311, state=4311744513, state=8589934593, state=8589934595, state=8589934625, state=8589934627, state=8657108993, state=8657109025, state=8657110049, state=17179934721, state=17716740097, state=17716805633, state=38689308673, state=38689308801, state=281479306280961, state=281479309426689, state=281479825326082, state=281548028903425, state=18295946538385409, state=1153202984566390786, state=1153765936667295746, state=18446700020263550978, state=18446735204635639810, state=18446735264748404737, state=18446735273355116546",
+      "next_states": [
+        0,
+        1,
+        2,
+        3,
+        6,
+        7,
+        14,
+        15,
+        30,
+        50331777,
+        301990016,
+        318767232,
+        4294967296,
+        4294967297,
+        4294967299,
+        4294967303,
+        4294967311,
+        4311744513,
+        8589934593,
+        8589934595,
+        8589934625,
+        8589934627,
+        8657108993,
+        8657109025,
+        8657110049,
+        17179934721,
+        17716740097,
+        17716805633,
+        38689308673,
+        38689308801,
+        281479306280961,
+        281479309426689,
+        281479825326082,
+        281548028903425,
+        18295946538385409,
+        1153202984566390786,
+        1153765936667295746,
+        18446700020263550978,
+        18446735204635639810,
+        18446735264748404737,
+        18446735273355116546
+      ],
+      "status": "solved"
+    },
+    {
+      "addr": "0x100000520",
+      "entry_state": "0x100000520",
+      "next_state_expr": "state=4294967296, state=8589934594, state=4611686022722486278, state=4611686022722486279, state=4611686027017322502",
+      "next_states": [
+        4294967296,
+        8589934594,
+        4611686022722486278,
+        4611686022722486279,
+        4611686027017322502
+      ],
+      "status": "solved"
+    },
+    {
+      "addr": "0x100000564",
+      "entry_state": "0x100000564",
+      "next_state_expr": "state=0, state=2, state=6, state=14, state=30",
+      "next_states": [
+        0,
+        2,
+        6,
+        14,
+        30
+      ],
+      "status": "solved"
+    },
+    {
+      "addr": "0x100000568",
+      "entry_state": "0x100000568",
+      "next_state_expr": "state=0, state=9223926199321886721, state=9223926199456120833, state=9223926199456645121, state=9223926199456907265",
+      "next_states": [
+        0,
+        9223926199321886721,
+        9223926199456120833,
+        9223926199456645121,
+        9223926199456907265
+      ],
+      "status": "solved"
+    },
+    {
+      "addr": "0x100000588",
+      "entry_state": "0x100000588",
+      "next_state_expr": "state=0, state=2, state=6, state=14, state=30",
+      "next_states": [
+        0,
+        2,
+        6,
+        14,
+        30
+      ],
+      "status": "solved"
+    },
+    {
+      "addr": "0x100000598",
+      "entry_state": "0x100000598",
+      "next_state_expr": "state=0, state=2, state=6, state=14, state=30",
+      "next_states": [
+        0,
+        2,
+        6,
+        14,
+        30
+      ],
+      "status": "solved"
+    },
+    {
+      "addr": "0x1000005d0",
+      "entry_state": "0x1000005d0",
+      "next_state_expr": "state=0, state=2, state=6, state=14, state=30",
+      "next_states": [
+        0,
+        2,
+        6,
+        14,
+        30
+      ],
+      "status": "solved"
+    },
+    {
+      "addr": "0x100000618",
+      "entry_state": "0x100000618",
+      "next_state_expr": "state=0, state=2, state=6, state=14, state=30",
+      "next_states": [
+        0,
+        2,
+        6,
+        14,
+        30
+      ],
+      "status": "solved"
+    },
+    {
+      "addr": "0x100000644",
+      "entry_state": "0x100000644",
+      "next_state_expr": "state=0, state=2, state=6, state=14, state=30",
+      "next_states": [
+        0,
+        2,
+        6,
+        14,
+        30
+      ],
+      "status": "solved"
+    },
+    {
+      "addr": "0x100000670",
+      "entry_state": "0x100000670",
+      "next_state_expr": "state=0, state=2, state=6, state=14, state=30",
+      "next_states": [
+        0,
+        2,
+        6,
+        14,
+        30
+      ],
+      "status": "solved"
+    },
+    {
+      "addr": "0x100000698",
+      "entry_state": "0x100000698",
+      "next_state_expr": "state=0, state=2, state=6, state=14, state=30",
+      "next_states": [
+        0,
+        2,
+        6,
+        14,
+        30
+      ],
+      "status": "solved"
+    },
+    {
+      "addr": "0x10000069c",
+      "entry_state": "0x10000069c",
+      "next_state_expr": "state=0, state=2, state=6, state=14, state=30",
+      "next_states": [
+        0,
+        2,
+        6,
+        14,
+        30
+      ],
+      "status": "solved"
+    },
+    {
+      "addr": "0x1000006ac",
+      "entry_state": "0x1000006ac",
+      "next_state_expr": "state=0, state=2, state=6, state=14, state=30",
+      "next_states": [
+        0,
+        2,
+        6,
+        14,
+        30
+      ],
+      "status": "solved"
+    },
+    {
+      "addr": "0x1000006e8",
+      "entry_state": "0x1000006e8",
+      "next_state_expr": "state=0, state=2, state=6, state=14, state=30",
+      "next_states": [
+        0,
+        2,
+        6,
+        14,
+        30
+      ],
+      "status": "solved"
+    },
+    {
+      "addr": "0x100000710",
+      "entry_state": "0x100000710",
+      "next_state_expr": "state=0, state=2, state=6, state=14, state=30",
+      "next_states": [
+        0,
+        2,
+        6,
+        14,
+        30
+      ],
+      "status": "solved"
+    },
+    {
+      "addr": "0x100000738",
+      "entry_state": "0x100000738",
+      "next_state_expr": "state=0, state=2, state=6, state=14, state=30",
+      "next_states": [
+        0,
+        2,
+        6,
+        14,
+        30
+      ],
+      "status": "solved"
+    },
+    {
+      "addr": "0x100000764",
+      "entry_state": "0x100000764",
+      "next_state_expr": "state=0, state=2, state=6, state=14, state=30",
+      "next_states": [
+        0,
+        2,
+        6,
+        14,
+        30
+      ],
+      "status": "solved"
+    },
+    {
+      "addr": "0x100000768",
+      "entry_state": "0x100000768",
+      "next_state_expr": "state=0, state=2, state=6, state=14, state=30",
+      "next_states": [
+        0,
+        2,
+        6,
+        14,
+        30
+      ],
+      "status": "solved"
+    },
+    {
+      "addr": "0x100000784",
+      "entry_state": "0x100000784",
+      "next_state_expr": "state=0, state=2, state=6, state=14, state=30",
+      "next_states": [
+        0,
+        2,
+        6,
+        14,
+        30
+      ],
+      "status": "solved"
+    },
+    {
+      "addr": "0x1000007b4",
+      "entry_state": "0x1000007b4",
+      "next_state_expr": "state=0, state=2, state=6, state=14, state=30",
+      "next_states": [
+        0,
+        2,
+        6,
+        14,
+        30
+      ],
+      "status": "solved"
+    },
+    {
+      "addr": "0x1000007b8",
+      "entry_state": "0x1000007b8",
+      "next_state_expr": "state=0, state=2, state=6, state=14, state=30",
+      "next_states": [
+        0,
+        2,
+        6,
+        14,
+        30
+      ],
+      "status": "solved"
+    },
+    {
+      "addr": "0x1000007f4",
+      "entry_state": "0x1000007f4",
+      "next_state_expr": "state=0, state=2, state=6, state=14, state=30",
+      "next_states": [
+        0,
+        2,
+        6,
+        14,
+        30
+      ],
+      "status": "solved"
+    },
+    {
+      "addr": "0x1000007f8",
+      "entry_state": "0x1000007f8",
+      "next_state_expr": "state=0, state=1, state=3, state=7, state=15",
+      "next_states": [
+        0,
+        1,
+        3,
+        7,
+        15
+      ],
+      "status": "solved"
+    },
+    {
+      "addr": "0x100000810",
+      "entry_state": "0x100000810",
+      "next_state_expr": "state=4294967296, state=4294967299, state=4294967303, state=4294967311, state=8589934593",
+      "next_states": [
+        4294967296,
+        4294967299,
+        4294967303,
+        4294967311,
+        8589934593
+      ],
+      "status": "solved"
+    },
+    {
+      "addr": "0x100000854",
+      "entry_state": "0x100000854",
+      "next_state_expr": "state=0, state=2, state=6, state=14, state=30",
+      "next_states": [
+        0,
+        2,
+        6,
+        14,
+        30
+      ],
+      "status": "solved"
+    },
+    {
+      "addr": "0x100000858",
+      "entry_state": "0x100000858",
+      "next_state_expr": "state=0, state=2, state=6, state=14, state=30",
+      "next_states": [
+        0,
+        2,
+        6,
+        14,
+        30
+      ],
+      "status": "solved"
+    },
+    {
+      "addr": "0x1000008a4",
+      "entry_state": "0x1000008a4",
+      "next_state_expr": "state=0, state=2, state=6, state=14, state=30",
+      "next_states": [
+        0,
+        2,
+        6,
+        14,
+        30
+      ],
+      "status": "solved"
+    },
+    {
+      "addr": "0x1000008ac",
+      "entry_state": "exit",
+      "next_state_expr": "EXIT",
+      "status": "solved"
+    }
+  ],
+  "concrete_io_pairs": [
+    {
+      "input": [
+        "c"
+      ],
+      "output": "125"
+    },
+    {
+      "input": [
+        "cc"
+      ],
+      "output": "150"
+    },
+    {
+      "input": [
+        "ccb"
+      ],
+      "output": "250"
+    },
+    {
+      "input": [
+        "ccbv"
+      ],
+      "output": "300"
+    },
+    {
+      "input": [
+        "ccbvr"
+      ],
+      "output": "0"
+    },
+    {
+      "input": [
+        "ccr"
+      ],
+      "output": "0"
+    },
+    {
+      "input": [
+        "ccccbv"
+      ],
+      "output": "350"
+    },
+    {
+      "input": [
+        "cb"
+      ],
+      "output": "125"
+    }
+  ],
+  "solve_status": "solved",
+  "latency_seconds": 0.559,
+  "num_recovered_blocks": 28,
+  "num_recovered_transitions": 172
+}

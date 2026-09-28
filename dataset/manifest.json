@@ -1,0 +1,81 @@
+{
+  "project": "Hybrid angr + LLM CFF Deobfuscation",
+  "samples": [
+    {
+      "id": "sample1_bitmix",
+      "category": "arithmetic_bit_manipulation",
+      "target_function": "sample1_bitmix",
+      "source_path": "dataset/src/sample1_bitmix.c",
+      "obfuscated_source_path": "dataset/src_obfuscated/sample1_bitmix_obf.c",
+      "baseline_binary": "dataset/binaries_baseline/sample1_bitmix",
+      "obfuscated_binary": "dataset/binaries_obfuscated/sample1_bitmix",
+      "io_test_path": "dataset/io_tests/sample1_bitmix.json",
+      "obfuscation_flags": [
+        "--Transform=Flatten",
+        "--Functions=sample1_bitmix"
+      ],
+      "num_io_tests": 8,
+      "compilation_flags": "-O0",
+      "ground_truth_cfg": "dataset/ground_truth_cfgs/sample1_bitmix_cfg.json",
+      "baseline_num_blocks": 9,
+      "baseline_num_edges": 10
+    },
+    {
+      "id": "sample2_xtea",
+      "category": "crypto_primitive",
+      "target_function": "sample2_xtea_round",
+      "source_path": "dataset/src/sample2_xtea.c",
+      "obfuscated_source_path": "dataset/src_obfuscated/sample2_xtea_obf.c",
+      "baseline_binary": "dataset/binaries_baseline/sample2_xtea",
+      "obfuscated_binary": "dataset/binaries_obfuscated/sample2_xtea",
+      "io_test_path": "dataset/io_tests/sample2_xtea.json",
+      "obfuscation_flags": [
+        "--Transform=Flatten",
+        "--Functions=sample2_xtea_round"
+      ],
+      "num_io_tests": 5,
+      "compilation_flags": "-O0",
+      "ground_truth_cfg": "dataset/ground_truth_cfgs/sample2_xtea_cfg.json",
+      "baseline_num_blocks": 9,
+      "baseline_num_edges": 10
+    },
+    {
+      "id": "sample3_parser",
+      "category": "string_token_parser",
+      "target_function": "sample3_parser",
+      "source_path": "dataset/src/sample3_parser.c",
+      "obfuscated_source_path": "dataset/src_obfuscated/sample3_parser_obf.c",
+      "baseline_binary": "dataset/binaries_baseline/sample3_parser",
+      "obfuscated_binary": "dataset/binaries_obfuscated/sample3_parser",
+      "io_test_path": "dataset/io_tests/sample3_parser.json",
+      "obfuscation_flags": [
+        "--Transform=Flatten",
+        "--Functions=sample3_parser"
+      ],
+      "num_io_tests": 6,
+      "compilation_flags": "-O0",
+      "ground_truth_cfg": "dataset/ground_truth_cfgs/sample3_parser_cfg.json",
+      "baseline_num_blocks": 39,
+      "baseline_num_edges": 50
+    },
+    {
+      "id": "sample4_fsm",
+      "category": "state_machine",
+      "target_function": "sample4_fsm",
+      "source_path": "dataset/src/sample4_fsm.c",
+      "obfuscated_source_path": "dataset/src_obfuscated/sample4_fsm_obf.c",
+      "baseline_binary": "dataset/binaries_baseline/sample4_fsm",
+      "obfuscated_binary": "dataset/binaries_obfuscated/sample4_fsm",
+      "io_test_path": "dataset/io_tests/sample4_fsm.json",
+      "obfuscation_flags": [
+        "--Transform=Flatten",
+        "--Functions=sample4_fsm"
+      ],
+      "num_io_tests": 8,
+      "compilation_flags": "-O0",
+      "ground_truth_cfg": "dataset/ground_truth_cfgs/sample4_fsm_cfg.json",
+      "baseline_num_blocks": 51,
+      "baseline_num_edges": 64
+    }
+  ]
+}

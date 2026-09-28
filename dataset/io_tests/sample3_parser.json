@@ -1,0 +1,38 @@
+[
+  {
+    "args": [
+      "A:123;"
+    ],
+    "expected_output": "10123"
+  },
+  {
+    "args": [
+      "B:-45;"
+    ],
+    "expected_output": "-2045"
+  },
+  {
+    "args": [
+      "Z:0;"
+    ],
+    "expected_output": "2600"
+  },
+  {
+    "args": [
+      "ABC:999;"
+    ],
+    "expected_output": "60999"
+  },
+  {
+    "args": [
+      "XYZ:-12345;"
+    ],
+    "expected_output": "-75012345"
+  },
+  {
+    "args": [
+      "HELLO:42;"
+    ],
+    "expected_output": "52042"
+  }
+]

@@ -1,0 +1,300 @@
+{
+  "function": "sample3_parser",
+  "dispatcher_addr": "0x1000005f0",
+  "latch_addr": "0x100000930",
+  "initial_state": 8,
+  "blocks": [
+    {
+      "addr": "0x1000005f0",
+      "entry_state": "0x1000005f0",
+      "next_state_expr": "state=7, state=9, state=10, state=13, state=15, state=16, state=28, state=57, state=59, state=63, state=95",
+      "next_states": [
+        7,
+        9,
+        10,
+        13,
+        15,
+        16,
+        28,
+        57,
+        59,
+        63,
+        95
+      ],
+      "status": "solved"
+    },
+    {
+      "addr": "0x100000604",
+      "entry_state": "0x100000604",
+      "next_state_expr": "unresolved_expression",
+      "status": "partial"
+    },
+    {
+      "addr": "0x100000648",
+      "entry_state": "0x100000648",
+      "next_state_expr": "state=0, state=2, state=6, state=14, state=30",
+      "next_states": [
+        0,
+        2,
+        6,
+        14,
+        30
+      ],
+      "status": "solved"
+    },
+    {
+      "addr": "0x100000674",
+      "entry_state": "0x100000674",
+      "next_state_expr": "state=0, state=2, state=6, state=14, state=30",
+      "next_states": [
+        0,
+        2,
+        6,
+        14,
+        30
+      ],
+      "status": "solved"
+    },
+    {
+      "addr": "0x10000069c",
+      "entry_state": "0x10000069c",
+      "next_state_expr": "state=0, state=2, state=6, state=14, state=30",
+      "next_states": [
+        0,
+        2,
+        6,
+        14,
+        30
+      ],
+      "status": "solved"
+    },
+    {
+      "addr": "0x1000006c8",
+      "entry_state": "0x1000006c8",
+      "next_state_expr": "state=0, state=2, state=6, state=14, state=30",
+      "next_states": [
+        0,
+        2,
+        6,
+        14,
+        30
+      ],
+      "status": "solved"
+    },
+    {
+      "addr": "0x1000006f4",
+      "entry_state": "0x1000006f4",
+      "next_state_expr": "state=0, state=2, state=6, state=14, state=30",
+      "next_states": [
+        0,
+        2,
+        6,
+        14,
+        30
+      ],
+      "status": "solved"
+    },
+    {
+      "addr": "0x100000718",
+      "entry_state": "0x100000718",
+      "next_state_expr": "state=0, state=2, state=6, state=14, state=30",
+      "next_states": [
+        0,
+        2,
+        6,
+        14,
+        30
+      ],
+      "status": "solved"
+    },
+    {
+      "addr": "0x10000074c",
+      "entry_state": "0x10000074c",
+      "next_state_expr": "state=0, state=2, state=6, state=14, state=30",
+      "next_states": [
+        0,
+        2,
+        6,
+        14,
+        30
+      ],
+      "status": "solved"
+    },
+    {
+      "addr": "0x100000750",
+      "entry_state": "0x100000750",
+      "next_state_expr": "state=13",
+      "next_states": [
+        13
+      ],
+      "status": "solved"
+    },
+    {
+      "addr": "0x100000770",
+      "entry_state": "0x100000770",
+      "next_state_expr": "state=13",
+      "next_states": [
+        13
+      ],
+      "status": "solved"
+    },
+    {
+      "addr": "0x1000007c4",
+      "entry_state": "0x1000007c4",
+      "next_state_expr": "state=0, state=2, state=6, state=14, state=30",
+      "next_states": [
+        0,
+        2,
+        6,
+        14,
+        30
+      ],
+      "status": "solved"
+    },
+    {
+      "addr": "0x1000007dc",
+      "entry_state": "0x1000007dc",
+      "next_state_expr": "state=10",
+      "next_states": [
+        10
+      ],
+      "status": "solved"
+    },
+    {
+      "addr": "0x1000007f4",
+      "entry_state": "0x1000007f4",
+      "next_state_expr": "state=13",
+      "next_states": [
+        13
+      ],
+      "status": "solved"
+    },
+    {
+      "addr": "0x10000081c",
+      "entry_state": "0x10000081c",
+      "next_state_expr": "state=10",
+      "next_states": [
+        10
+      ],
+      "status": "solved"
+    },
+    {
+      "addr": "0x10000083c",
+      "entry_state": "0x10000083c",
+      "next_state_expr": "state=13",
+      "next_states": [
+        13
+      ],
+      "status": "solved"
+    },
+    {
+      "addr": "0x100000850",
+      "entry_state": "0x100000850",
+      "next_state_expr": "state=15",
+      "next_states": [
+        15
+      ],
+      "status": "solved"
+    },
+    {
+      "addr": "0x100000898",
+      "entry_state": "0x100000898",
+      "next_state_expr": "state=0, state=2, state=6, state=14, state=30",
+      "next_states": [
+        0,
+        2,
+        6,
+        14,
+        30
+      ],
+      "status": "solved"
+    },
+    {
+      "addr": "0x1000008c8",
+      "entry_state": "0x1000008c8",
+      "next_state_expr": "state=0, state=2, state=6, state=14, state=30",
+      "next_states": [
+        0,
+        2,
+        6,
+        14,
+        30
+      ],
+      "status": "solved"
+    },
+    {
+      "addr": "0x100000900",
+      "entry_state": "0x100000900",
+      "next_state_expr": "state=0, state=2, state=6, state=14, state=30",
+      "next_states": [
+        0,
+        2,
+        6,
+        14,
+        30
+      ],
+      "status": "solved"
+    },
+    {
+      "addr": "0x10000092c",
+      "entry_state": "0x10000092c",
+      "next_state_expr": "state=0, state=2, state=6, state=14, state=30",
+      "next_states": [
+        0,
+        2,
+        6,
+        14,
+        30
+      ],
+      "status": "solved"
+    },
+    {
+      "addr": "0x100000934",
+      "entry_state": "exit",
+      "next_state_expr": "EXIT",
+      "status": "solved"
+    }
+  ],
+  "concrete_io_pairs": [
+    {
+      "input": [
+        "A:123;"
+      ],
+      "output": "10123"
+    },
+    {
+      "input": [
+        "B:-45;"
+      ],
+      "output": "-2045"
+    },
+    {
+      "input": [
+        "Z:0;"
+      ],
+      "output": "2600"
+    },
+    {
+      "input": [
+        "ABC:999;"
+      ],
+      "output": "60999"
+    },
+    {
+      "input": [
+        "XYZ:-12345;"
+      ],
+      "output": "-75012345"
+    },
+    {
+      "input": [
+        "HELLO:42;"
+      ],
+      "output": "52042"
+    }
+  ],
+  "solve_status": "partial",
+  "latency_seconds": 0.7,
+  "num_recovered_blocks": 22,
+  "num_recovered_transitions": 79
+}

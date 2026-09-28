@@ -1,0 +1,105 @@
+{
+  "function_name": "sample1_bitmix",
+  "entry_addr": "0x100000460",
+  "num_blocks": 9,
+  "num_edges": 10,
+  "blocks": [
+    {
+      "addr": "0x100000460",
+      "size": 24,
+      "instruction_addrs": []
+    },
+    {
+      "addr": "0x1000004a8",
+      "size": 44,
+      "instruction_addrs": []
+    },
+    {
+      "addr": "0x100000478",
+      "size": 4,
+      "instruction_addrs": []
+    },
+    {
+      "addr": "0x1000004d4",
+      "size": 8,
+      "instruction_addrs": []
+    },
+    {
+      "addr": "0x10000047c",
+      "size": 44,
+      "instruction_addrs": []
+    },
+    {
+      "addr": "0x100000504",
+      "size": 40,
+      "instruction_addrs": []
+    },
+    {
+      "addr": "0x1000004dc",
+      "size": 4,
+      "instruction_addrs": []
+    },
+    {
+      "addr": "0x10000052c",
+      "size": 12,
+      "instruction_addrs": []
+    },
+    {
+      "addr": "0x1000004e0",
+      "size": 36,
+      "instruction_addrs": []
+    }
+  ],
+  "edges": [
+    {
+      "src": "0x100000460",
+      "dst": "0x1000004a8",
+      "jumpkind": "unknown"
+    },
+    {
+      "src": "0x100000460",
+      "dst": "0x100000478",
+      "jumpkind": "unknown"
+    },
+    {
+      "src": "0x1000004a8",
+      "dst": "0x1000004d4",
+      "jumpkind": "unknown"
+    },
+    {
+      "src": "0x100000478",
+      "dst": "0x10000047c",
+      "jumpkind": "unknown"
+    },
+    {
+      "src": "0x1000004d4",
+      "dst": "0x100000504",
+      "jumpkind": "unknown"
+    },
+    {
+      "src": "0x1000004d4",
+      "dst": "0x1000004dc",
+      "jumpkind": "unknown"
+    },
+    {
+      "src": "0x10000047c",
+      "dst": "0x1000004d4",
+      "jumpkind": "unknown"
+    },
+    {
+      "src": "0x100000504",
+      "dst": "0x10000052c",
+      "jumpkind": "unknown"
+    },
+    {
+      "src": "0x1000004dc",
+      "dst": "0x1000004e0",
+      "jumpkind": "unknown"
+    },
+    {
+      "src": "0x1000004e0",
+      "dst": "0x10000052c",
+      "jumpkind": "unknown"
+    }
+  ]
+}

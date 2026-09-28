@@ -1,0 +1,10 @@
+angr==10.0.0
+claripy==9.2.14
+capstone==5.0.9
+z3-solver==5.1.0.0
+matplotlib>=3.10.0
+numpy>=2.0.0
+python-dotenv>=1.0.0
+openai>=1.60.0
+anthropic>=0.40.0
+requests>=2.32.0

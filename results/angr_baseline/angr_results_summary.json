@@ -1,0 +1,46 @@
+{
+  "sample1_bitmix": {
+    "solve_status": "solved",
+    "latency_seconds": 0.082,
+    "io_pass_rate": 1.0,
+    "passed_tests": "8/8",
+    "recovered_blocks": 9,
+    "ground_truth_blocks": 9,
+    "cfg_overlap_ratio": 1.0,
+    "outcome_bucket": "Solved",
+    "cost_dollars": 0.0
+  },
+  "sample2_xtea": {
+    "solve_status": "solved",
+    "latency_seconds": 0.074,
+    "io_pass_rate": 1.0,
+    "passed_tests": "5/5",
+    "recovered_blocks": 9,
+    "ground_truth_blocks": 9,
+    "cfg_overlap_ratio": 1.0,
+    "outcome_bucket": "Solved",
+    "cost_dollars": 0.0
+  },
+  "sample3_parser": {
+    "solve_status": "partial",
+    "latency_seconds": 0.7,
+    "io_pass_rate": 1.0,
+    "passed_tests": "6/6",
+    "recovered_blocks": 39,
+    "ground_truth_blocks": 39,
+    "cfg_overlap_ratio": 1.0,
+    "outcome_bucket": "Solved",
+    "cost_dollars": 0.0
+  },
+  "sample4_fsm": {
+    "solve_status": "solved",
+    "latency_seconds": 0.559,
+    "io_pass_rate": 1.0,
+    "passed_tests": "8/8",
+    "recovered_blocks": 51,
+    "ground_truth_blocks": 51,
+    "cfg_overlap_ratio": 1.0,
+    "outcome_bucket": "Solved",
+    "cost_dollars": 0.0
+  }
+}
