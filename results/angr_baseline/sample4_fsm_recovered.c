@@ -1,9 +1,10 @@
 int printf(const char *format, ...);
 
-/* Deobfuscated via angr symbolic execution */
 int sample4_fsm(const char *events) {
-    if (!events) return -1;
-    int state = 0;
+    if (!events) {
+        return -1;
+    }
+    int state = 0; /* 0: IDLE, 1: COIN_INSERTED, 2: SELECTION_MADE, 3: DISPENSED, 4: ERROR */
     int balance = 0;
     int i = 0;
 
@@ -45,7 +46,10 @@ int sample4_fsm(const char *events) {
 }
 
 int main(int argc, char **argv) {
-    if (argc < 2) return 1;
+    if (argc < 2) {
+        printf("Usage: %s <events>\n", argv[0]);
+        return 1;
+    }
     int out_val = sample4_fsm(argv[1]);
     printf("%d\n", out_val);
     return 0;

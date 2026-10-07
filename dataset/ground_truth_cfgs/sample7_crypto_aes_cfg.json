@@ -1,0 +1,105 @@
+{
+  "function_name": "aes_subround",
+  "entry_addr": "0x100000460",
+  "num_blocks": 9,
+  "num_edges": 10,
+  "blocks": [
+    {
+      "addr": "0x100000460",
+      "size": 24,
+      "instruction_addrs": []
+    },
+    {
+      "addr": "0x100000478",
+      "size": 12,
+      "instruction_addrs": []
+    },
+    {
+      "addr": "0x100000524",
+      "size": 20,
+      "instruction_addrs": []
+    },
+    {
+      "addr": "0x100000484",
+      "size": 4,
+      "instruction_addrs": []
+    },
+    {
+      "addr": "0x100000488",
+      "size": 48,
+      "instruction_addrs": []
+    },
+    {
+      "addr": "0x1000004d0",
+      "size": 16,
+      "instruction_addrs": []
+    },
+    {
+      "addr": "0x1000004b8",
+      "size": 4,
+      "instruction_addrs": []
+    },
+    {
+      "addr": "0x1000004e0",
+      "size": 68,
+      "instruction_addrs": []
+    },
+    {
+      "addr": "0x1000004bc",
+      "size": 20,
+      "instruction_addrs": []
+    }
+  ],
+  "edges": [
+    {
+      "src": "0x100000460",
+      "dst": "0x100000478",
+      "jumpkind": "unknown"
+    },
+    {
+      "src": "0x100000478",
+      "dst": "0x100000524",
+      "jumpkind": "unknown"
+    },
+    {
+      "src": "0x100000478",
+      "dst": "0x100000484",
+      "jumpkind": "unknown"
+    },
+    {
+      "src": "0x100000484",
+      "dst": "0x100000488",
+      "jumpkind": "unknown"
+    },
+    {
+      "src": "0x100000488",
+      "dst": "0x1000004d0",
+      "jumpkind": "unknown"
+    },
+    {
+      "src": "0x100000488",
+      "dst": "0x1000004b8",
+      "jumpkind": "unknown"
+    },
+    {
+      "src": "0x1000004d0",
+      "dst": "0x1000004e0",
+      "jumpkind": "unknown"
+    },
+    {
+      "src": "0x1000004b8",
+      "dst": "0x1000004bc",
+      "jumpkind": "unknown"
+    },
+    {
+      "src": "0x1000004e0",
+      "dst": "0x100000478",
+      "jumpkind": "unknown"
+    },
+    {
+      "src": "0x1000004bc",
+      "dst": "0x1000004e0",
+      "jumpkind": "unknown"
+    }
+  ]
+}

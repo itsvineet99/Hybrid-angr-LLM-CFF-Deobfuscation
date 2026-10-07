@@ -1,9 +1,11 @@
-int printf(const char *format, ...);
-
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 int sample3_parser(const char *input) {
     if (!input || !*input) {
         return -1;
     }
+
     int state = 0;
     int value = 0;
     int sign = 1;
@@ -26,6 +28,7 @@ int sample3_parser(const char *input) {
         }
         i++;
     }
+
     return value * sign;
 }
 

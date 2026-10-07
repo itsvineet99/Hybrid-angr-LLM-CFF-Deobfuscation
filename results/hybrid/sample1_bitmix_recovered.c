@@ -1,6 +1,6 @@
-int printf(const char *format, ...);
-unsigned long strtoul(const char *str, char **endptr, int base);
-
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 unsigned int sample1_bitmix(unsigned int val) {
     unsigned int acc = val;
     if (acc & 1U) {
@@ -15,7 +15,7 @@ unsigned int sample1_bitmix(unsigned int val) {
         acc = ~acc;
         acc = (acc * 33U) + 7U;
     } else {
-        acc = (acc * 17U) ^ 0xCAFEBABE0U;
+        acc = (acc * 17U) ^ 0xCAFEBABEU;
     }
     return acc;
 }

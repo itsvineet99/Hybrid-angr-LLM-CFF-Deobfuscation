@@ -1,0 +1,51 @@
+{
+  "sample1_bitmix": {
+    "sample_id": "sample1_bitmix",
+    "patched_binary_path": "results/patched_binaries/sample1_bitmix_deobfuscated_bin",
+    "patches_applied": 0,
+    "io_pass_rate": 1.0,
+    "passed_tests": "8/8"
+  },
+  "sample2_xtea": {
+    "sample_id": "sample2_xtea",
+    "patched_binary_path": "results/patched_binaries/sample2_xtea_deobfuscated_bin",
+    "patches_applied": 0,
+    "io_pass_rate": 1.0,
+    "passed_tests": "5/5"
+  },
+  "sample3_parser": {
+    "sample_id": "sample3_parser",
+    "patched_binary_path": "results/patched_binaries/sample3_parser_deobfuscated_bin",
+    "patches_applied": 0,
+    "io_pass_rate": 1.0,
+    "passed_tests": "6/6"
+  },
+  "sample4_fsm": {
+    "sample_id": "sample4_fsm",
+    "patched_binary_path": "results/patched_binaries/sample4_fsm_deobfuscated_bin",
+    "patches_applied": 0,
+    "io_pass_rate": 1.0,
+    "passed_tests": "8/8"
+  },
+  "sample5_coreutils_base64": {
+    "sample_id": "sample5_coreutils_base64",
+    "patched_binary_path": "results/patched_binaries/sample5_coreutils_base64_deobfuscated_bin",
+    "patches_applied": 0,
+    "io_pass_rate": 1.0,
+    "passed_tests": "5/5"
+  },
+  "sample6_coreutils_md5": {
+    "sample_id": "sample6_coreutils_md5",
+    "patched_binary_path": "results/patched_binaries/sample6_coreutils_md5_deobfuscated_bin",
+    "patches_applied": 0,
+    "io_pass_rate": 1.0,
+    "passed_tests": "5/5"
+  },
+  "sample7_crypto_aes": {
+    "sample_id": "sample7_crypto_aes",
+    "patched_binary_path": "results/patched_binaries/sample7_crypto_aes_deobfuscated_bin",
+    "patches_applied": 0,
+    "io_pass_rate": 1.0,
+    "passed_tests": "5/5"
+  }
+}

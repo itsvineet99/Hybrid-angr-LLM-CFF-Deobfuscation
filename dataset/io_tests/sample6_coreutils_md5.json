@@ -1,0 +1,67 @@
+[
+  {
+    "args": [
+      "0x01234567",
+      "0x89ABCDEF",
+      "0xFEDCBA98",
+      "0x76543210",
+      "0x00000001",
+      "7",
+      "0xD76AA478",
+      "0"
+    ],
+    "expected_output": "0x3EFE0A5A"
+  },
+  {
+    "args": [
+      "0x89ABCDEF",
+      "0xFEDCBA98",
+      "0x76543210",
+      "0x01234567",
+      "0x00000002",
+      "12",
+      "0xE8C7B756",
+      "0"
+    ],
+    "expected_output": "0xAEA8A936"
+  },
+  {
+    "args": [
+      "0x01234567",
+      "0x89ABCDEF",
+      "0xFEDCBA98",
+      "0x76543210",
+      "0x12345678",
+      "5",
+      "0xF61E2562",
+      "1"
+    ],
+    "expected_output": "0xC9750721"
+  },
+  {
+    "args": [
+      "0x01234567",
+      "0x89ABCDEF",
+      "0xFEDCBA98",
+      "0x76543210",
+      "0x9ABCDEF0",
+      "4",
+      "0xFFFA3942",
+      "2"
+    ],
+    "expected_output": "0x5985FDF8"
+  },
+  {
+    "args": [
+      "0x01234567",
+      "0x89ABCDEF",
+      "0xFEDCBA98",
+      "0x76543210",
+      "0xCAFEBABE",
+      "6",
+      "0xF4292244",
+      "3"
+    ],
+    "expected_output": "0x7A5245FC"
+  }
+]

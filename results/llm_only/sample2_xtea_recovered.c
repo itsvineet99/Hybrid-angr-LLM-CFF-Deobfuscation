@@ -1,23 +1,21 @@
-int printf(const char *format, ...);
-unsigned long strtoul(const char *str, char **endptr, int base);
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+I'll analyze this XTEA round function with control flow flattening. Let me start by examining the dispatcher structure and tracing the state transitions.
 
-unsigned int sample2_xtea_round(unsigned int v0, unsigned int v1, unsigned int k0, unsigned int k1) {
-    unsigned int sum = 0x9E3779B9U;
-    unsigned int res = v0;
+**Step 1: Locate the dispatcher block and state variable**
 
-    if (v1 & 1U) {
-        res += (((v1 << 4) ^ (v1 >> 5)) + v1) ^ (sum + k0);
-    } else {
-        res += (((v1 << 3) ^ (v1 >> 4)) + v1) ^ (sum + k1);
-    }
+From the entry block at `0x10000066c`:
+- Stack frame: `sub sp, sp, #0x30`
+- Parameters stored: `v0` at `[sp, #0x2c]`, `v1` at `[sp, #0x28]`, `k0` at `[sp, #0x24]`, `k1` at `[sp, #0x20]`
+- State variable initialized to `3` at `[sp, #0x10]`
+- Jumps to dispatcher at `0x10000068c`
 
-    if (res > 0x7FFFFFFFU) {
-        res = (res << 1) ^ 0x1BU;
-    } else {
-        res = (res >> 1) + 0x42U;
-    }
-    return res;
-}
+Let me fetch the dispatcher and subsequent blocks to trace the state machine.
+
+<tool_call>
+{"name": "get_block", "arguments": {"address": "0x10000068c"}}
+</tool_call>
 
 int main(int argc, char **argv) {
     if (argc < 5) {

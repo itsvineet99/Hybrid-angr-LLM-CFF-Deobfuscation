@@ -1,8 +1,9 @@
 int printf(const char *format, ...);
 
-/* Deobfuscated via angr symbolic execution */
 int sample3_parser(const char *input) {
-    if (!input || !*input) return -1;
+    if (!input || !*input) {
+        return -1;
+    }
     int state = 0;
     int value = 0;
     int sign = 1;
@@ -29,7 +30,10 @@ int sample3_parser(const char *input) {
 }
 
 int main(int argc, char **argv) {
-    if (argc < 2) return 1;
+    if (argc < 2) {
+        printf("Usage: %s <string>\n", argv[0]);
+        return 1;
+    }
     int out_val = sample3_parser(argv[1]);
     printf("%d\n", out_val);
     return 0;

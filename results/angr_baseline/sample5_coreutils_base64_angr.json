@@ -1,0 +1,313 @@
+{
+  "function": "coreutils_base64_encode_block",
+  "dispatcher_addr": "0x10000056c",
+  "latch_addr": "0x100000864",
+  "initial_state": 13,
+  "blocks": [
+    {
+      "addr": "0x10000056c",
+      "entry_state": "0x10000056c",
+      "next_state_expr": "state=0, state=1, state=2, state=3, state=6, state=7, state=11, state=14, state=15, state=27, state=30, state=536870912, state=570425344, state=4294967297, state=4865392640, state=17179934721, state=17716740097, state=17716805633, state=36591746972385280",
+      "next_states": [
+        0,
+        1,
+        2,
+        3,
+        6,
+        7,
+        11,
+        14,
+        15,
+        27,
+        30,
+        536870912,
+        570425344,
+        4294967297,
+        4865392640,
+        17179934721,
+        17716740097,
+        17716805633,
+        36591746972385280
+      ],
+      "status": "solved"
+    },
+    {
+      "addr": "0x1000005c4",
+      "entry_state": "0x1000005c4",
+      "next_state_expr": "state=0, state=2, state=6, state=14, state=30",
+      "next_states": [
+        0,
+        2,
+        6,
+        14,
+        30
+      ],
+      "status": "solved"
+    },
+    {
+      "addr": "0x1000005c8",
+      "entry_state": "0x1000005c8",
+      "next_state_expr": "state=0, state=2, state=6, state=14, state=30",
+      "next_states": [
+        0,
+        2,
+        6,
+        14,
+        30
+      ],
+      "status": "solved"
+    },
+    {
+      "addr": "0x1000005d8",
+      "entry_state": "0x1000005d8",
+      "next_state_expr": "state=0, state=2, state=6, state=14, state=30",
+      "next_states": [
+        0,
+        2,
+        6,
+        14,
+        30
+      ],
+      "status": "solved"
+    },
+    {
+      "addr": "0x100000614",
+      "entry_state": "0x100000614",
+      "next_state_expr": "state=0, state=2, state=6, state=14, state=30",
+      "next_states": [
+        0,
+        2,
+        6,
+        14,
+        30
+      ],
+      "status": "solved"
+    },
+    {
+      "addr": "0x100000618",
+      "entry_state": "0x100000618",
+      "next_state_expr": "state=0, state=2, state=6, state=14, state=30",
+      "next_states": [
+        0,
+        2,
+        6,
+        14,
+        30
+      ],
+      "status": "solved"
+    },
+    {
+      "addr": "0x100000630",
+      "entry_state": "0x100000630",
+      "next_state_expr": "state=33554432, state=134217728, state=167772160, state=1107296256, state=58546795155816448",
+      "next_states": [
+        33554432,
+        134217728,
+        167772160,
+        1107296256,
+        58546795155816448
+      ],
+      "status": "solved"
+    },
+    {
+      "addr": "0x1000006a8",
+      "entry_state": "0x1000006a8",
+      "next_state_expr": "state=0, state=2, state=6, state=14, state=30",
+      "next_states": [
+        0,
+        2,
+        6,
+        14,
+        30
+      ],
+      "status": "solved"
+    },
+    {
+      "addr": "0x1000006bc",
+      "entry_state": "0x1000006bc",
+      "next_state_expr": "state=0, state=3, state=7, state=15, state=4294967297",
+      "next_states": [
+        0,
+        3,
+        7,
+        15,
+        4294967297
+      ],
+      "status": "solved"
+    },
+    {
+      "addr": "0x100000704",
+      "entry_state": "0x100000704",
+      "next_state_expr": "state=0, state=2, state=6, state=14, state=30",
+      "next_states": [
+        0,
+        2,
+        6,
+        14,
+        30
+      ],
+      "status": "solved"
+    },
+    {
+      "addr": "0x100000730",
+      "entry_state": "0x100000730",
+      "next_state_expr": "state=0, state=2, state=6, state=14, state=30",
+      "next_states": [
+        0,
+        2,
+        6,
+        14,
+        30
+      ],
+      "status": "solved"
+    },
+    {
+      "addr": "0x10000075c",
+      "entry_state": "0x10000075c",
+      "next_state_expr": "state=0, state=2, state=6, state=14, state=30",
+      "next_states": [
+        0,
+        2,
+        6,
+        14,
+        30
+      ],
+      "status": "solved"
+    },
+    {
+      "addr": "0x100000760",
+      "entry_state": "0x100000760",
+      "next_state_expr": "state=0, state=2, state=6, state=14, state=30",
+      "next_states": [
+        0,
+        2,
+        6,
+        14,
+        30
+      ],
+      "status": "solved"
+    },
+    {
+      "addr": "0x1000007c4",
+      "entry_state": "0x1000007c4",
+      "next_state_expr": "state=0, state=2, state=6, state=14, state=30",
+      "next_states": [
+        0,
+        2,
+        6,
+        14,
+        30
+      ],
+      "status": "solved"
+    },
+    {
+      "addr": "0x1000007c8",
+      "entry_state": "0x1000007c8",
+      "next_state_expr": "state=0, state=1, state=3, state=7, state=15",
+      "next_states": [
+        0,
+        1,
+        3,
+        7,
+        15
+      ],
+      "status": "solved"
+    },
+    {
+      "addr": "0x1000007d8",
+      "entry_state": "0x1000007d8",
+      "next_state_expr": "state=0, state=2, state=6, state=14, state=30",
+      "next_states": [
+        0,
+        2,
+        6,
+        14,
+        30
+      ],
+      "status": "solved"
+    },
+    {
+      "addr": "0x100000834",
+      "entry_state": "0x100000834",
+      "next_state_expr": "state=0, state=2, state=6, state=14, state=30",
+      "next_states": [
+        0,
+        2,
+        6,
+        14,
+        30
+      ],
+      "status": "solved"
+    },
+    {
+      "addr": "0x100000844",
+      "entry_state": "0x100000844",
+      "next_state_expr": "state=0, state=2, state=6, state=14, state=30",
+      "next_states": [
+        0,
+        2,
+        6,
+        14,
+        30
+      ],
+      "status": "solved"
+    },
+    {
+      "addr": "0x100000868",
+      "entry_state": "exit",
+      "next_state_expr": "EXIT",
+      "status": "solved"
+    }
+  ],
+  "concrete_io_pairs": [
+    {
+      "input": [
+        "77",
+        "97",
+        "110",
+        "3"
+      ],
+      "output": "TWFu"
+    },
+    {
+      "input": [
+        "77",
+        "97",
+        "0",
+        "2"
+      ],
+      "output": "TWE="
+    },
+    {
+      "input": [
+        "77",
+        "0",
+        "0",
+        "1"
+      ],
+      "output": "TQ=="
+    },
+    {
+      "input": [
+        "0",
+        "0",
+        "0",
+        "3"
+      ],
+      "output": "AAAA"
+    },
+    {
+      "input": [
+        "255",
+        "255",
+        "255",
+        "3"
+      ],
+      "output": "////"
+    }
+  ],
+  "solve_status": "solved",
+  "latency_seconds": 0.884,
+  "num_recovered_blocks": 19,
+  "num_recovered_transitions": 105
+}

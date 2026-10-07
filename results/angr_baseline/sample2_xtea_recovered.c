@@ -1,7 +1,6 @@
 int printf(const char *format, ...);
 unsigned long strtoul(const char *str, char **endptr, int base);
 
-/* Deobfuscated via angr symbolic execution */
 unsigned int sample2_xtea_round(unsigned int v0, unsigned int v1, unsigned int k0, unsigned int k1) {
     unsigned int sum = 0x9E3779B9U;
     unsigned int res = v0;
@@ -21,7 +20,10 @@ unsigned int sample2_xtea_round(unsigned int v0, unsigned int v1, unsigned int k
 }
 
 int main(int argc, char **argv) {
-    if (argc < 5) return 1;
+    if (argc < 5) {
+        printf("Usage: %s <v0> <v1> <k0> <k1>\n", argv[0]);
+        return 1;
+    }
     unsigned int v0 = (unsigned int)strtoul(argv[1], 0, 0);
     unsigned int v1 = (unsigned int)strtoul(argv[2], 0, 0);
     unsigned int k0 = (unsigned int)strtoul(argv[3], 0, 0);

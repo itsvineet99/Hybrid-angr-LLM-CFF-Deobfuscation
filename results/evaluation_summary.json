@@ -1,5 +1,5 @@
 {
-  "num_samples": 4,
+  "num_samples": 7,
   "conditions": [
     "angr-only",
     "llm-only",
@@ -7,22 +7,18 @@
   ],
   "mean_io_pass_rate": {
     "angr-only": 1.0,
-    "llm-only": 1.0,
-    "hybrid": 1.0
+    "llm-only": 0.17857142857142858,
+    "hybrid": 0.75
   },
   "mean_cfg_overlap": {
     "angr-only": 1.0,
-    "llm-only": 1.0,
-    "hybrid": 1.0
+    "llm-only": 0.3,
+    "hybrid": 0.8571428571428571
   },
   "mean_latency_seconds": {
-    "angr-only": 0.35375,
-    "llm-only": 0.03075,
-    "hybrid": 0.03225
+    "angr-only": 0.354,
+    "llm-only": 8.529,
+    "hybrid": 27.65871428571429
   },
-  "total_cost_dollars": {
-    "angr-only": 0.0,
-    "llm-only": 0.0253,
-    "hybrid": 0.0313
-  }
+  "mean_complexity_reduction_pct": 68.25714285714285
 }

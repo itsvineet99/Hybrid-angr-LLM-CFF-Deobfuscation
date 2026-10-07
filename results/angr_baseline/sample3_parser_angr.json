@@ -294,7 +294,7 @@
     }
   ],
   "solve_status": "partial",
-  "latency_seconds": 0.7,
+  "latency_seconds": 0.627,
   "num_recovered_blocks": 22,
   "num_recovered_transitions": 79
 }

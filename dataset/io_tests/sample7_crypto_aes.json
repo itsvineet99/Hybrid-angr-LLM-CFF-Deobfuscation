@@ -1,0 +1,37 @@
+[
+  {
+    "args": [
+      "0x00000000",
+      "0x00000000"
+    ],
+    "expected_output": "0xC3C3C3C3"
+  },
+  {
+    "args": [
+      "0x12345678",
+      "0xA0B0C0D0"
+    ],
+    "expected_output": "0x4618AAE4"
+  },
+  {
+    "args": [
+      "0xFFFFFFFF",
+      "0x12345678"
+    ],
+    "expected_output": "0x3B1D7F51"
+  },
+  {
+    "args": [
+      "0xDEADBEEF",
+      "0xCAFEBABE"
+    ],
+    "expected_output": "0xA37615B6"
+  },
+  {
+    "args": [
+      "0x3243F6A8",
+      "0x885A308D"
+    ],
+    "expected_output": "0x2C1B0B0F"
+  }
+]

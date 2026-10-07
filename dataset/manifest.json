@@ -76,6 +76,63 @@
       "ground_truth_cfg": "dataset/ground_truth_cfgs/sample4_fsm_cfg.json",
       "baseline_num_blocks": 51,
       "baseline_num_edges": 64
+    },
+    {
+      "id": "sample5_coreutils_base64",
+      "category": "realworld_coreutils",
+      "target_function": "coreutils_base64_encode_block",
+      "source_path": "dataset/src/sample5_coreutils_base64.c",
+      "obfuscated_source_path": "dataset/src_obfuscated/sample5_coreutils_base64_obf.c",
+      "baseline_binary": "dataset/binaries_baseline/sample5_coreutils_base64",
+      "obfuscated_binary": "dataset/binaries_obfuscated/sample5_coreutils_base64",
+      "io_test_path": "dataset/io_tests/sample5_coreutils_base64.json",
+      "obfuscation_flags": [
+        "--Transform=Flatten",
+        "--Functions=coreutils_base64_encode_block"
+      ],
+      "num_io_tests": 5,
+      "compilation_flags": "-O0",
+      "ground_truth_cfg": "dataset/ground_truth_cfgs/sample5_coreutils_base64_cfg.json",
+      "baseline_num_blocks": 25,
+      "baseline_num_edges": 31
+    },
+    {
+      "id": "sample6_coreutils_md5",
+      "category": "realworld_coreutils",
+      "target_function": "coreutils_md5_step",
+      "source_path": "dataset/src/sample6_coreutils_md5.c",
+      "obfuscated_source_path": "dataset/src_obfuscated/sample6_coreutils_md5_obf.c",
+      "baseline_binary": "dataset/binaries_baseline/sample6_coreutils_md5",
+      "obfuscated_binary": "dataset/binaries_obfuscated/sample6_coreutils_md5",
+      "io_test_path": "dataset/io_tests/sample6_coreutils_md5.json",
+      "obfuscation_flags": [
+        "--Transform=Flatten",
+        "--Functions=coreutils_md5_step"
+      ],
+      "num_io_tests": 5,
+      "compilation_flags": "-O0",
+      "ground_truth_cfg": "dataset/ground_truth_cfgs/sample6_coreutils_md5_cfg.json",
+      "baseline_num_blocks": 13,
+      "baseline_num_edges": 15
+    },
+    {
+      "id": "sample7_crypto_aes",
+      "category": "realworld_crypto",
+      "target_function": "aes_subround",
+      "source_path": "dataset/src/sample7_crypto_aes.c",
+      "obfuscated_source_path": "dataset/src_obfuscated/sample7_crypto_aes_obf.c",
+      "baseline_binary": "dataset/binaries_baseline/sample7_crypto_aes",
+      "obfuscated_binary": "dataset/binaries_obfuscated/sample7_crypto_aes",
+      "io_test_path": "dataset/io_tests/sample7_crypto_aes.json",
+      "obfuscation_flags": [
+        "--Transform=Flatten",
+        "--Functions=aes_subround"
+      ],
+      "num_io_tests": 5,
+      "compilation_flags": "-O0",
+      "ground_truth_cfg": "dataset/ground_truth_cfgs/sample7_crypto_aes_cfg.json",
+      "baseline_num_blocks": 9,
+      "baseline_num_edges": 10
     }
   ]
 }

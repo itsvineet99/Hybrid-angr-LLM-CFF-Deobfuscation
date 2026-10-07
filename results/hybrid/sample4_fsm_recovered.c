@@ -1,5 +1,6 @@
-int printf(const char *format, ...);
-
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 int sample4_fsm(const char *events) {
     if (!events) {
         return -1;
@@ -32,18 +33,7 @@ int sample4_fsm(const char *events) {
                 balance = 0;
                 state = 0;
             }
-        } else if (state == 3) {
-            if (ev == 'r') {
-                state = 0;
-            }
-        } else {
-            state = 4;
-            break;
         }
-        i++;
-    }
-    return (state * 100) + balance;
-}
 
 int main(int argc, char **argv) {
     if (argc < 2) {

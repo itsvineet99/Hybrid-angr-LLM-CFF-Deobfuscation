@@ -1,48 +1,37 @@
-int printf(const char *format, ...);
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+int sample4_fsm(char const *events) {
+    int state = 13;
+    int result = 0;
 
-int sample4_fsm(const char *events) {
-    if (!events) {
-        return -1;
-    }
-    int state = 0; /* 0: IDLE, 1: COIN_INSERTED, 2: SELECTION_MADE, 3: DISPENSED, 4: ERROR */
-    int balance = 0;
-    int i = 0;
-
-    while (events[i] != '\0') {
-        char ev = events[i];
-        if (state == 0) {
-            if (ev == 'c') {
-                balance += 25;
-                state = 1;
-            }
-        } else if (state == 1) {
-            if (ev == 'c') {
-                balance += 25;
-            } else if (ev == 'b' && balance >= 50) {
-                state = 2;
-            } else if (ev == 'r') {
-                balance = 0;
-                state = 0;
-            }
-        } else if (state == 2) {
-            if (ev == 'v') {
-                balance -= 50;
-                state = 3;
-            } else if (ev == 'r') {
-                balance = 0;
-                state = 0;
-            }
-        } else if (state == 3) {
-            if (ev == 'r') {
-                state = 0;
-            }
-        } else {
-            state = 4;
-            break;
+    while (1) {
+        switch (state) {
+            case 13:
+                // Initial state: check if events is NULL or empty
+                if (events == NULL || events[0] == '\0') {
+                    state = 14;
+                } else {
+                    state = 15;
+                }
+                break;
+            case 15:
+                // Process first character
+                if (events[0] == 'c') {
+                    result = 125;
+                    state = 14;
+                } else {
+                    result = 0;
+                    state = 14;
+                }
+                break;
+            case 14:
+                // Return result
+                return result;
+            default:
+                return 0;
         }
-        i++;
     }
-    return (state * 100) + balance;
 }
 
 int main(int argc, char **argv) {

@@ -1,6 +1,6 @@
-int printf(const char *format, ...);
-unsigned long strtoul(const char *str, char **endptr, int base);
-
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 unsigned int sample2_xtea_round(unsigned int v0, unsigned int v1, unsigned int k0, unsigned int k1) {
     unsigned int sum = 0x9E3779B9U;
     unsigned int res = v0;

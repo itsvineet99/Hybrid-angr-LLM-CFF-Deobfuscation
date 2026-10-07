@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """
 Pipeline Step 1: Obfuscation and I/O Test Generation
-Transforms 4 core benchmark C programs using Tigress Flatten transform.
+Transforms 7 benchmark C programs (Core + Real-World GNU Coreutils & Crypto Primitives)
+using Tigress Flatten transform.
 Compiles both baseline (-O0) and obfuscated (-O0) binaries.
 Verifies functional equivalence across test cases and writes I/O suites.
 """
@@ -75,6 +76,45 @@ SAMPLES = [
             ["ccccbv"],
             ["cb"]
         ]
+    },
+    {
+        "id": "sample5_coreutils_base64",
+        "category": "realworld_coreutils",
+        "source": "dataset/src/sample5_coreutils_base64.c",
+        "target_func": "coreutils_base64_encode_block",
+        "test_inputs": [
+            ["77", "97", "110", "3"],
+            ["77", "97", "0", "2"],
+            ["77", "0", "0", "1"],
+            ["0", "0", "0", "3"],
+            ["255", "255", "255", "3"]
+        ]
+    },
+    {
+        "id": "sample6_coreutils_md5",
+        "category": "realworld_coreutils",
+        "source": "dataset/src/sample6_coreutils_md5.c",
+        "target_func": "coreutils_md5_step",
+        "test_inputs": [
+            ["0x01234567", "0x89ABCDEF", "0xFEDCBA98", "0x76543210", "0x00000001", "7", "0xD76AA478", "0"],
+            ["0x89ABCDEF", "0xFEDCBA98", "0x76543210", "0x01234567", "0x00000002", "12", "0xE8C7B756", "0"],
+            ["0x01234567", "0x89ABCDEF", "0xFEDCBA98", "0x76543210", "0x12345678", "5", "0xF61E2562", "1"],
+            ["0x01234567", "0x89ABCDEF", "0xFEDCBA98", "0x76543210", "0x9ABCDEF0", "4", "0xFFFA3942", "2"],
+            ["0x01234567", "0x89ABCDEF", "0xFEDCBA98", "0x76543210", "0xCAFEBABE", "6", "0xF4292244", "3"]
+        ]
+    },
+    {
+        "id": "sample7_crypto_aes",
+        "category": "realworld_crypto",
+        "source": "dataset/src/sample7_crypto_aes.c",
+        "target_func": "aes_subround",
+        "test_inputs": [
+            ["0x00000000", "0x00000000"],
+            ["0x12345678", "0xA0B0C0D0"],
+            ["0xFFFFFFFF", "0x12345678"],
+            ["0xDEADBEEF", "0xCAFEBABE"],
+            ["0x3243F6A8", "0x885A308D"]
+        ]
     }
 ]
 
@@ -87,6 +127,7 @@ def run_cmd(cmd, cwd=None, env=None):
 def main():
     print("=" * 60)
     print("Step 1: Compiling Baseline, Obfuscating with Tigress, Generating I/O")
+    print(f"Total Benchmarks: {len(SAMPLES)} (4 Core Custom + 3 Real-World Coreutils/Crypto)")
     print("=" * 60)
     
     os.makedirs(ROOT_DIR / "dataset" / "binaries_baseline", exist_ok=True)
@@ -169,7 +210,7 @@ def main():
         
     print("\n" + "=" * 60)
     print(f"Manifest written to {manifest_path}")
-    print("Step 1 successfully completed.")
+    print("Step 1 successfully completed with all 7 benchmarks.")
     print("=" * 60)
 
 if __name__ == "__main__":

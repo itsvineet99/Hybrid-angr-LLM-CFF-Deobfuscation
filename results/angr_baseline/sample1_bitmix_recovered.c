@@ -1,7 +1,6 @@
 int printf(const char *format, ...);
 unsigned long strtoul(const char *str, char **endptr, int base);
 
-/* Deobfuscated via angr symbolic execution */
 unsigned int sample1_bitmix(unsigned int val) {
     unsigned int acc = val;
     if (acc & 1U) {
@@ -22,7 +21,10 @@ unsigned int sample1_bitmix(unsigned int val) {
 }
 
 int main(int argc, char **argv) {
-    if (argc < 2) return 1;
+    if (argc < 2) {
+        printf("Usage: %s <uint32>\n", argv[0]);
+        return 1;
+    }
     unsigned int in_val = (unsigned int)strtoul(argv[1], 0, 0);
     unsigned int out_val = sample1_bitmix(in_val);
     printf("0x%08X\n", out_val);

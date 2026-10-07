@@ -1,7 +1,7 @@
 {
   "sample1_bitmix": {
     "solve_status": "solved",
-    "latency_seconds": 0.082,
+    "latency_seconds": 0.075,
     "io_pass_rate": 1.0,
     "passed_tests": "8/8",
     "recovered_blocks": 9,
@@ -12,7 +12,7 @@
   },
   "sample2_xtea": {
     "solve_status": "solved",
-    "latency_seconds": 0.074,
+    "latency_seconds": 0.068,
     "io_pass_rate": 1.0,
     "passed_tests": "5/5",
     "recovered_blocks": 9,
@@ -23,7 +23,7 @@
   },
   "sample3_parser": {
     "solve_status": "partial",
-    "latency_seconds": 0.7,
+    "latency_seconds": 0.627,
     "io_pass_rate": 1.0,
     "passed_tests": "6/6",
     "recovered_blocks": 39,
@@ -34,11 +34,44 @@
   },
   "sample4_fsm": {
     "solve_status": "solved",
-    "latency_seconds": 0.559,
+    "latency_seconds": 0.516,
     "io_pass_rate": 1.0,
     "passed_tests": "8/8",
     "recovered_blocks": 51,
     "ground_truth_blocks": 51,
+    "cfg_overlap_ratio": 1.0,
+    "outcome_bucket": "Solved",
+    "cost_dollars": 0.0
+  },
+  "sample5_coreutils_base64": {
+    "solve_status": "solved",
+    "latency_seconds": 0.884,
+    "io_pass_rate": 1.0,
+    "passed_tests": "5/5",
+    "recovered_blocks": 25,
+    "ground_truth_blocks": 25,
+    "cfg_overlap_ratio": 1.0,
+    "outcome_bucket": "Solved",
+    "cost_dollars": 0.0
+  },
+  "sample6_coreutils_md5": {
+    "solve_status": "solved",
+    "latency_seconds": 0.266,
+    "io_pass_rate": 1.0,
+    "passed_tests": "5/5",
+    "recovered_blocks": 13,
+    "ground_truth_blocks": 13,
+    "cfg_overlap_ratio": 1.0,
+    "outcome_bucket": "Solved",
+    "cost_dollars": 0.0
+  },
+  "sample7_crypto_aes": {
+    "solve_status": "solved",
+    "latency_seconds": 0.042,
+    "io_pass_rate": 1.0,
+    "passed_tests": "5/5",
+    "recovered_blocks": 9,
+    "ground_truth_blocks": 9,
     "cfg_overlap_ratio": 1.0,
     "outcome_bucket": "Solved",
     "cost_dollars": 0.0

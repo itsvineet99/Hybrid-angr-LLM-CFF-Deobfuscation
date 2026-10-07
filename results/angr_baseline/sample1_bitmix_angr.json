@@ -146,7 +146,7 @@
     }
   ],
   "solve_status": "solved",
-  "latency_seconds": 0.082,
+  "latency_seconds": 0.075,
   "num_recovered_blocks": 9,
   "num_recovered_transitions": 21
 }
